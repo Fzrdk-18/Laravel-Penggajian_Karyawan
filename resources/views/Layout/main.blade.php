@@ -26,10 +26,13 @@ aria-expanded="false" aria-label="Toggle navigation">
                         <a class="nav-link active text-light fs-5" aria-current="page" href="/Home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light fs-5" href="/Jabatan">Jabatan</a>
+                        <a class="nav-link text-light fs-5" href="/jabatan/index">Jabatan</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light fs-5" href="/Gaji">Gaji</a>
+                        <a class="nav-link text-light fs-5" href="/Gaji/index">Gaji</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-5" href="/Karyawan/index">Karyawan</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light fs-5" href="/Laporan">Laporan</a>

@@ -1,9 +1,9 @@
 @extends('Layout.main')
 
-@section('content')
+ @section('content')
     <div class="col-12 ps-4">
         <h4>>> Data Jabatan</h4>
-        <a href="/jabatan/create" class="btn btn-info btn-md p-2 mb-3">Tambah Data</a>
+        <a href="/Jabatan/create" class="btn btn-info btn-md p-2 mb-3">Tambah Data</a>
     </div>
     <div class="col-12 ps-4">
         <div class="table-responsive-md">
@@ -18,21 +18,16 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (@jabatans as $jabatan)
-                    <tr>
-                        <th scope="row">{{ $loop->iteration }}</th>
-                        <td>{{ $jabatan->nama_jabatan }}</td>
-                        <td>{{ $jabatan->jumlah_gaji_pokok }}</td>    
-                        <td>{{ $jabatan->upah_lembur }}</td>
-                        <td>
-                            <a href="/jabatan/edit/{{ $jabatan->id }}" class="btn btn-warning btn-sm">Edit</a>"
-                            <a href="#"class="btnbtn-danger btn-sm" onclick="return confirm('Sure ?')">Delete</a>
-                        </td>
-                    </tr>
-                @endforeach
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <a href="/Jabatan/edit" class="btn btn-warning btn-sm">Edit</a>
+                    <a href="#" class="btn btn-danger btn-sm" onclick="return
+                    confirm('Sure ?')">Delete</a></td>
             </tbody>
-            </table>
-        </div>
+         </table>
     </div>
-               
-                @endsection
+
+    @endsection
